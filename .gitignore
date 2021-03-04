@@ -1,0 +1,4 @@
+cola_public*
+outputs
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
