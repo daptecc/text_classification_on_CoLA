@@ -35,7 +35,7 @@ Create a model trained on the CoLA dataset to predict whether a sentence is gram
 #### Precision, recall, F1 metrics
 
 | Model | Class | Precision | Recall | F1 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | baseline | incorrect grammar | 0.73 | 0.65 | 0.69 |
 | baseline | correct grammar | 0.85 | 0.90 | 0.87 |
 | resampled | incorrect grammar | 0.79 | 0.67 | 0.72 |
