@@ -37,16 +37,16 @@ Create a model trained on the CoLA dataset to predict whether a sentence is gram
 | Model | Class | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- |
 | baseline | incorrect grammar | 0.73 | 0.65 | 0.69 |
-| baseline | correct grammar | 0.85 | 0.90 | 0.87 |
 | resampled | incorrect grammar | 0.79 | 0.67 | 0.72 |
-| resampled | correct grammar | 0.86 | 0.92 | 0.89 |
 | weighted cross entropy | incorrect grammar | 0.66 | 0.62 | 0.64 |
-| weighted cross entropy | correct grammar | 0.84 | 0.86 | 0.85 |
 | focal loss, gamma=0 | incorrect grammar | 0.70 | 0.64 | 0.66 |
-| focal loss, gamma=0 | correct grammar | 0.84 | 0.88 | 0.86 |
 | focal loss, gamma=2 | incorrect grammar | 0.76 | 0.66 | 0.71 |
-| focal loss, gamma=2 | correct grammar | 0.86 | 0.91 | 0.88 |
 | focal loss, gamma=5 | incorrect grammar | 0.68 | 0.76 | 0.72 |
+| baseline | correct grammar | 0.85 | 0.90 | 0.87 |
+| resampled | correct grammar | 0.86 | 0.92 | 0.89 |
+| weighted cross entropy | correct grammar | 0.84 | 0.86 | 0.85 |
+| focal loss, gamma=0 | correct grammar | 0.84 | 0.88 | 0.86 |
+| focal loss, gamma=2 | correct grammar | 0.86 | 0.91 | 0.88 |
 | focal loss, gamma=5 | correct grammar | 0.89 | 0.84 | 0.86 |
 
 ##### Comments
